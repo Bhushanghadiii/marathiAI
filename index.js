@@ -6,7 +6,7 @@ const axios = require('axios');
 const app = express();
 app.use(bodyParser.json());
 
-const HF_API_TOKEN = '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'; // 🔒 Paste your Hugging Face token
+const HF_API_TOKEN = ''; // 🔒 Paste your Hugging Face token
 
 app.post('/vapi', async (req, res) => {
   const messages = req.body.messages || [];
